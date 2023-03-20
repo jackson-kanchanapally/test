@@ -7,6 +7,7 @@ export default function Ap() {
 
   useEffect(() => {
     
+    
     const encodedParams = new URLSearchParams();
     encodedParams.set('url', 'www.google.com');
     
