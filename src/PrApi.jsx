@@ -14,7 +14,11 @@ export default function PrApi()
 return(
 <>
 {data.map(i=>(
-    <div key={i.name}>{i.name}</div>
+    <div key={i.name}>
+        <h2>{i.name}</h2>
+<a href={i.url}>visit</a>
+        <hr/>
+        </div>
 ))}
 </>
 )
