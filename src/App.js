@@ -7,6 +7,7 @@ import Tasks from './componets/Task';
 import Projects from './componets/Projects';
 import Ap from './Ap';
 import PrApi from './PrApi';
+import Cl from './Cl';
 function App(props) {
   const state=0
   return (
@@ -19,7 +20,8 @@ function App(props) {
     {/* <Projects/> */}
     {/* <Ap/>
      */}
-<PrApi/>
+{/* <PrApi/> */}
+<Cl/>
     {/* <Tasks ups={state}/> */}
     </div>
   );
